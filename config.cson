@@ -1,40 +1,63 @@
 "*":
-  "exception-reporting":
-    userId: "53c5f869-8a29-d7f5-ef48-bc598612bb8d"
-  welcome:
-    showOnStartup: false
-  editor:
-    invisibles: {}
-    fontFamily: " Inconsolata-g, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
-  tabs:
-    usePreviewTabs: false
-  core: {}
-  "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
-    lintOnEdit: false
-  react: {}
-  "language-babel":
-    babelStage: 1
-    disableWhenNoBabelrcFileInPath: true
-    suppressTranspileOnSaveMessages: true
-    transpileOnSave: false
-  "clip-history": {}
-  "file-icons":
-    tabPaneIcon: false
-  "find-and-replace":
-    openProjectFindResultsInRightPane: true
-  "painless-panes": {}
-  "fuzzy-finder":
-    searchAllPanes: true
-    useAlternateScoring: true
-  "autocomplete-plus":
-    useAlternateScoring: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "6404cfab-7847-4570-bb8b-b71cff0bf301"
   "autocomplete-elixir":
     elixirPath: "/usr/local/bin/elixir"
     erlangHome: "/usr/local/Cellar/erlang/18.1/bin"
+  "autocomplete-plus":
+    useAlternateScoring: true
+  "clip-history": {}
+  core:
+    disabledPackages: [
+      "react"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: " Inconsolata-g, Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+    fontSize: 17
+    invisibles: {}
+  "exception-reporting":
+    userId: "53c5f869-8a29-d7f5-ef48-bc598612bb8d"
+  "file-icons":
+    tabPaneIcon: false
+  "find-and-replace":
+    projectSearchResultsPaneSplitDirection: "right"
+  "fuzzy-finder":
+    searchAllPanes: true
+    useAlternateScoring: true
+  "git-plus":
+    general:
+      _analyticsUserId: "bfe17410-d371-4ecc-a5e6-930e9cb917e4"
+  "language-babel":
+    disableWhenNoBabelrcFileInPath: true
+    suppressTranspileOnSaveMessages: true
+    transpileOnSave: false
   "linter-elixirc":
     elixircPath: "/usr/local/bin/elixirc"
     mixPath: "/usr/local/bin/mix"
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    lintOnEdit: false
+  "painless-panes": {}
+  "project-find-navigation":
+    showDeprecationWarning: false
+    showEndOfLifeWarning: false
+  react: {}
+  tabs:
+    usePreviewTabs: false
+  welcome:
+    showOnStartup: false
 ".cs.source":
   editor:
     tabLength: 4
